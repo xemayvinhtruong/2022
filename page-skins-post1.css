@@ -1,0 +1,9 @@
+.entry-header{padding-bottom:20px}.entry-header .post-title{font-weight:normal;line-height:normal}
+.entry-body h2,.entry-body h3,.entry-body h4,.entry-body h5,.entry-body h6{font-size:1.2rem;font-weight:500}
+.entry-body p,.entry-body h2,.entry-body h3,.entry-body h4,.entry-body h5,.entry-body h6{margin-bottom:1.3rem}
+.entry-body a,.box_tin a{color:#08c}.entry-body ol,.entry-body ul:not(.box_tin):not(.payment_methods){margin:0 0 1.3rem 1.3rem}
+.entry-body ol>ol,.entry-body ol>ul,.entry-body ul>ul{margin:15px 0 15px 20px}
+.entry-body ul:not(.box_tin):not(.payment_methods)>li{list-style-type:disc}.entry-body ul>ul>li{list-style-type:circle}.entry-body ol li{list-style-type:decimal}.box_tin{background:#E4F0F6;margin-bottom:1.3rem;padding:15px;font-size:1rem}
+.entry-body img{margin:0 auto}.entry-body blockquote{color:#666;border-left:3px solid #006BA0;padding-left:15px}
+.entry-body blockquote{color:#666;border-left:3px solid #365899;padding-left:15px}
+.main-wrapper .page h1{font-size:2rem;line-height:1.6em;margin-bottom:1.3rem;padding-bottom:5px;border-bottom:2px solid rgba(12,28,39,.15)}.main-wrapper .page h2,.main-wrapper .page h3{font-size:1.3rem}
