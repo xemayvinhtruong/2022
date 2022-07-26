@@ -1,0 +1,76 @@
+.home-banner-slider .banner-img>img{position: absolute;top:0;left:0;height:100%;object-fit:cover}
+.home-banner-slider .container.first-banner{top:50%;z-index:20;max-width:none;width:auto}
+.home-banner-slider .container.second-banner{top:50%;left:60%;transform:translate(0,-50%);z-index:20;max-width:none;width:auto}
+.home-banner-slider .container.first-banner>h3:first-child{color:rgba(34,37,41,0.7);line-height:1}
+.home-banner-slider .container.first-banner>h2{font-style:italic;line-height:1;font-weight:700;letter-spacing:.005em;color:#222529}
+.home-banner-slider .container.first-banner>h2+h3{margin:15px 0;line-height:1;color:#222529}
+.home-banner-slider .container.first-banner>.banner-inner>div>div>h4:first-child{font-size:.9em;line-height:1;color:#222529}
+.home-banner-slider .container.first-banner>.banner-inner>div>div>h4+h4{line-height:1}
+.coupon-sale-text{transform:rotate(-2deg);letter-spacing:-.01em;position:relative}
+.coupon-sale-text b{display:inline-block;font-size:1.4em;font-weight:700;padding:5px 8px;background-color:#ff7272;color:#fff}
+.coupon-sale-text sup{font-size:50%;top:-.5em}
+.home-banner-slider .container.second-banner>h4{color:#999;line-height:1;font-weight:500}
+.home-banner-slider .container.second-banner>h4+h3{margin:10px 0;line-height:1;color:#222529}
+.home-banner-slider .container.second-banner>h4+h3+div>h4:before,.home-banner-slider .container.second-banner>h4+h3+div>h4:after{content:"–";font-weight:700;letter-spacing:.3em;font-weight:700;text-transform:uppercase}
+.home-banner-slider .container.second-banner>h4+h3+div>h4:before{margin-right:7px}
+.home-banner-slider .container.second-banner>h4+h3+div>h4:after{margin-left:7px}
+.home-banner-slider .container.second-banner>h4+h3+div+h2{font-style:italic;line-height:1;font-weight:700;letter-spacing:.005em}
+@media(min-width:768px){
+.home-banner-slider .container.first-banner{left:20%;transform:translate(-20%,-50%)}
+.home-banner-slider .container.first-banner>h3:first-child{font-size:130%}
+.home-banner-slider .container.first-banner>h2{font-size:240%}
+.home-banner-slider .container.first-banner>h2+h3{font-size:300%}
+.home-banner-slider .container.first-banner>.banner-inner>div>div>h4+h4{font-size:140%}
+.home-banner-slider .container.second-banner>h4,.home-banner-slider .container.second-banner>h4+h3+div>h4{font-size:200%}
+.home-banner-slider .container.second-banner>h4+h3+div+h2{font-size:240%}
+.home-banner-slider .container.second-banner>h4+h3{font-size:340%}
+}
+@media(max-width:767px) and (min-width:641px){.home-banner-slider .container.first-banner{left:15%;transform:translate(15%,-50%)}}
+@media(max-width:640px){.home-banner-slider .container.first-banner{left:10%;transform:translate(-10%,-50%)}}
+@media(max-width:414px){
+.home-banner-slider .container.second-banner{left:50%}
+.home-banner-slider .container.first-banner>.banner-inner>div>div>h4+h4+div,.home-banner-slider .container.second-banner>h4+h3+div+h2+div{display:none}
+}
+.home-banner{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;background-position:center!important;background-repeat:no-repeat!important;background-size:cover!important}
+.home-banner .col-md-3>div{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;z-index:1}
+.home-banner h2{font-size:1.275rem;line-height:1.2}
+.home-banner strong{position:relative;z-index:1;display:inline-block;padding:.4em .6em;margin-right:.5em}
+.home-banner strong:before{content:'';display:block;background-color:#222529;position:absolute;left:0;right:0;top:0;bottom:0;transform:rotate(-2deg);z-index:-1}
+.home-banner small{font-size:64%;font-weight:400;opacity:.7;vertical-align:middle;margin-left:.8em}
+.home-bar .col-inner{margin:0 auto;width:100%}
+.home-bar .sicon{display:flex;border:1px solid #d5d4d4;border-radius:15px}
+.home-bar .sicon-box{padding:1rem;text-align:center;width:calc(100%/3)}.home-bar .sicon-box i{font-size:40px}.sicon-header>h3{font-weight:700;color:#222529;font-size:14px;line-height:14px}
+.sicon-header>h3:not(:last-child){margin:0 0 3px}.sicon-header>p{font-size:15px;line-height:17px;margin-top:10px}
+@media(max-width:641px){.home-bar .sicon{border:none;padding:0 5px}.sicon-header>p{font-size:12px}.home-bar .sicon-box{padding:.5rem;border-radius:15px;border:1px solid #d5d4d4;margin:0 5px}.home-bar .sicon-box i{font-size:25px}}
+.home-ads .col-md-4 .has-content-pos{background-color:#f4f4f4!important;display:-ms-flexbox;display:flex;-ms-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;font-size:10px;will-change:box-shadow;box-shadow:none}
+.home-ads .col-md-4 .has-content-pos:hover{box-shadow:0 0 20px 0 rgba(0,0,0,0.1)}
+.home-ads .col-md-4:nth-of-type(2) .has-content-pos{border:1rem solid #0088cc}
+.home-ads .col-md-4:nth-of-type(2) .has-content-pos>div{justify-content:center}
+.home-ads .col-md-4:nth-of-type(1) .has-content-pos>h3{font-size:1.5rem;line-height:1}
+.home-ads .col-md-4:nth-of-type(1) .has-content-pos>h4{font-size:1.8125rem;line-height:1;font-weight:800;color:#0088cc}
+.home-ads .col-md-4:nth-of-type(1) .has-content-pos>h4 del{color:#222529}
+.home-ads .col-md-4:nth-of-type(2) .has-content-pos h3{font-size:1.375rem;line-height:1.35}
+.home-ads .col-md-4:nth-of-type(2) .has-content-pos h4{font-size:0.9375rem;color:#777;line-height:1;font-weight:600}
+.home-ads .col-md-4:nth-of-type(3) .has-content-pos h3{font-size:1.5rem;line-height:1}
+.home-ads .col-md-4:nth-of-type(3) .has-content-pos h4{font-size:.9rem;line-height:1.4;font-weight:600;color:#ff7272}
+[data-background="1"]{background-color:#fbfbfb!important}[data-background="2"]{background-color:#f6f7f9!important}
+.customer-support .customer-support-top>div>div{color:#0088cc;background:transparent;border-style:solid;border-color:#dddddd;border-width:2px;width:76px;height:76px;line-height:76px;border-radius:40px;font-size:40px}
+.customer-support .customer-support-header h3{font-weight:700;font-size:16px}
+.customer-support .customer-support-header p{font-weight:500;font-size:14px;line-height:22px;color:#555}
+.products-categories{background-color:#fbfbfb}.thumb-info{max-width:100%}.thumb-info,.thumb-info .thumb-info-wrapper{display:block;position:relative}.thumb-info .thumb-info-wrapper{margin:0;overflow:hidden}ul.products li.product-category>a{display:block}ul.products li.product-category .thumb-info{min-height:90px}ul.products li.product-category .thumb-info h3{font-size:100%;font-weight:700;line-height:1.35;text-transform:uppercase;margin:0 0 10px;color:inherit;letter-spacing:-.005em}
+ul.products li.product-category .thumb-info-title{display:block;width:100%;padding-top:1em;color:#1d2127}
+ul.products li.product-category mark{padding:0;background:none;color:inherit}
+ul.products li.product-category .thumb-info-type{display:block;margin:-10px 0 0;padding:0;font-weight:400;background:none;float:none;opacity:.7;line-height:1.8;font-size:13px;color:#777}
+@media(min-width:1025px){.home-banner-slider .banner-img{min-height:600px}}
+@media(max-width:1024px) and (min-width:992px){.home-banner-slider .banner-img{min-height:350px}}
+@media(max-width:991px) and (min-width:861px){.home-banner-slider .banner-img{min-height:320px}}
+@media(max-width:860px) and (min-width:768px){.home-banner-slider .banner-img{min-height:300px}}
+@media(max-width:767px) and (min-width:641px){.home-banner-slider .banner-img{min-height:240px}}
+@media(max-width:640px) and (min-width:551px){.home-banner-slider .banner-img{min-height:230px}}
+@media(max-width:550px) and (min-width:481px){.home-banner-slider .banner-img{min-height:220px}}
+@media(max-width:480px) and (min-width:415px){.home-banner-slider .banner-img{min-height:210px}}
+@media(max-width:414px) and (min-width:385px){.home-banner-slider .banner-img{min-height:200px}}
+@media(max-width:384px) and (min-width:376px){.home-banner-slider .banner-img{min-height:190px}}
+@media(max-width:375px) and (min-width:361px){.home-banner-slider .banner-img{min-height:180px}}
+@media(max-width:360px) and (min-width:321px){.home-banner-slider .banner-img{min-height:170px}}
+@media(max-width:320px){.home-banner-slider .banner-img{min-height:160px}}
